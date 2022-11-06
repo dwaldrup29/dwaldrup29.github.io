@@ -8,15 +8,30 @@ body {
     padding: 10px;
     margin: 15px;
     background: lightpink;
+    border-radius: 10px;
 
 }
 
 .assignment img {
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 3px solid #00FFFF
+}
+
+.assignment img:hover {
+    border: 3px solid blueviolet
 }
 
 h1 {
     color: fuchsia;
     text-align: center;
+}
+
+a  {
+    text-decoration: none;
+    color: #00FFFF;
+}
+
+a:hover {
+    color: blueviolet;
 }
